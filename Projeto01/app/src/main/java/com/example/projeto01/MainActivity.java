@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
         meuBotao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // Codigo antigo
+                /* resultado.setText(meuTexto.getText()); */
                 String textoDigitado = meuTexto.getText().toString().trim();
                 resultado.setText(textoDigitado);
             }
